@@ -7,7 +7,7 @@ import java.nio.channels.FileChannel;
 import java.nio.channels.FileLock;
 import java.text.MessageFormat;
 
-//java -cp org.shaneking.demo.nfs.file.lock-0.10.0.jar org.shaneking.demo.nfs.file.lock.NFSFileLock /dev-nas-cluster/workspace/github/shaneking/org.shaneking.demo.nfs.file.lock/test.lock
+//java -cp org.shaneking.demo.nfs.file.lock-0.0.1.jar org.shaneking.demo.nfs.file.lock.NFSFileLock /dev-nas-cluster/workspace/github/shaneking/org.shaneking.demo.nfs.file.lock/test.lock
 public class NFSFileLock {
   public static final int MAX_TRY_TIMES = 10;
   public static final String FMT_FAILED = "Lock file {0} failed, th{1}.";
